@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0px auto;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* navber style */
+
+.navber {
+    /* border:2px solid green; */
+    min-height: 100px;
+    display: flex;
+}
+
+.navber-logo-text {
+    /* border:2px solid red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-right: 27%;
+
+
+
+}
+
+.navber-logo-text img {
+    width: 40px;
+}
+
+.navber-logo-text p {
+    color: #131318;
+    font-size: 2.3rem;
+    font-weight: 800
+}
+
+.navber-text {
+    /* border:2px solid blue; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navber-text a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navber-text .home {
+    color: red
+}
+
+/* banner  style*/
+.banner {
+    min-height: 500px;
+    background: linear-gradient(to bottom, #070211e1 0%, rgba(7, 2, 17, 0)100%), url(..//Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    text-align: center;
+
+}
+
+.banner-text {
+    padding-top: 40px;
+}
+
+.banner .banner-heading {
+    font-size: 3.8rem;
+    color: white;
+    font-weight: 800;
+}
+
+.banner .banner-description {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 40%;
+    padding: 30px;
+}
+
+.banner .banner-option {
+    display: flex;
+    gap: 7px;
+    background: linear-gradient(180deg, rgba(214, 208, 208, 0.329), rgba(255, 255, 255, 0.301));
+    border-radius: 10px;
+    max-width: 40%;
+    padding: 20px;
+}
+
+.fa-solid {
+    color: white;
+}
+
+.banner .more-option {
+    display: flex;
+    gap: 7px;
+
+}
+
+#input-type {
+    width: 130px;
+    font-size: 1rem;
+    padding: 8px 0px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.select-option select {
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 7.5px;
+    color: rgba(19, 19, 24, 0.50);
+    ;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 7.5px;
+    color: white;
+    width: 130px;
+    background-color: tomato;
+    border-radius: 10px;
+    border: none;
+
+}
+
+/* popular tour  style*/
+.popular-tour {
+    margin-top: 80px;
+    /* border: 2px solid yellow; */
+    min-height: 400px;
+    display: flex;
+    gap: 80px;
+  
+}
+
+.popular-tour .popular-tour-text {
+    /* border: 2px solid green; */
+    width: 50%;
+}
+
+.popular-tour-text h1 {
+    color: #131318;
+    font-size: 2.7rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.popular-tour-text p {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+.popular-unorder-list li {
+    list-style-position: inside;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.only-primary-button {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 10px 20px;
+    border:none;
+}
+.popular-tour .popular-tour-image {
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.popular-tour-image{
+    height: 430px;
+}
+.popular-tour-image img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+    .navber,
+    .navber-text {
+        flex-direction: column;
+    }
+
+    .banner-option,
+    .more-option {
+        flex-direction: column;
+
+    }
+
+    .banner {
+        border: 2px solid blue;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    .banner .banner-option {
+        max-width: 50%;
+    }
+
+    .banner .banner-description {
+        max-width: 90%
+    }
+    .popular-tour{
+        flex-direction: column;
+    }
+    .popular-tour .popular-tour-text{
+        width: 90%;
+    }
+    .popular-tour .popular-tour-image{
+        width: 90%;
+    }
+}
+
+/* @media screen and (min-width:600px) and (max-width:992px) {
+    .navber{
+        flex-direction: column;
+        
+    }
+    .banner .banner-option{
+        margin-left: 7%;
+        max-width: 90%;
+       
+    }
+    .navber-logo-text {
+        margin-left: 38%;
+    
+ }
+ .navber-text {
+    margin-left: 15%;
+    gap: 30px;
+}
+ } */
