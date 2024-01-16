@@ -821,7 +821,8 @@ main {
 
     .row-1,
     .row-2 {
-       width: 90%;
+       width: 88%;
+       margin-left: 20px;
     }
 
     .row-num-1 {
@@ -829,15 +830,17 @@ main {
     }
 
     .row-num-1 .own {
-       width: 90%;
+       width: 88%;
+       margin: 20px;
     }
-
     .row-num-1 .two {
-       width: 90%;
+       width: 88%;
+       margin-left: 20px;
     }
 
     .row-num-1 .three {
-       width: 90%;
+       width: 88%;
+       margin-left: 20px;
     }
 
     .row-num-2 {
@@ -846,8 +849,13 @@ main {
 
     .num-1,
     .num-2 {
-       width: 90%;
+       width: 88%;
+       margin-left: 20px;
     }
+    .Bandarban,  .Bangladesh,  .Kashmir,  .North,  .Srilanka,  .Indonesia,  .maldip{
+        display: none;
+         
+    }  
  }
  
 
