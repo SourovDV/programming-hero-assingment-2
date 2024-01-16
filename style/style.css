@@ -814,14 +814,14 @@ main {
     }
     /* image-choose */
     
- @media screen and (max-width:600px) {
+ 
     .row {
        flex-direction: column;
     }
 
     .row-1,
     .row-2 {
-       width: 100%;
+       width: 90%;
     }
 
     .row-num-1 {
@@ -829,15 +829,15 @@ main {
     }
 
     .row-num-1 .own {
-       width: 100%;
+       width: 90%;
     }
 
     .row-num-1 .two {
-       width: 100%;
+       width: 90%;
     }
 
     .row-num-1 .three {
-       width: 100%;
+       width: 90%;
     }
 
     .row-num-2 {
@@ -846,7 +846,7 @@ main {
 
     .num-1,
     .num-2 {
-       width: 100%;
+       width: 90%;
     }
  }
  
@@ -857,4 +857,3 @@ main {
         padding: 20px;
     }
 
-}
