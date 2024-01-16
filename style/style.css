@@ -298,74 +298,161 @@ main {
     background-color: #FF5400;
 }
 
+.choose-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+  .choose-textbox {
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 60px;
+} 
+
+.hotel-service {
+    flex-basis: 48%;
+    text-align: left;
+    padding: 50px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+
+.hotel-service h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.hotel-service p {
+    width: 80%;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.service {
+    flex-basis: 48%;
+    border: 2px solid yellow;
+    text-align: left;
+    padding: 50px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+
+    background: rgba(41, 206, 246, 0.05);
+
+
+}
+.service p {
+    width: 80%;
+}
+
+
+.award {
+    flex-basis: 48%;
+    border: 2px solid yellow;
+    text-align: left;
+    padding: 50px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+
+    background: rgba(41, 206, 246, 0.05);
+
+}
+
 /* .discound */
-.discound{
+.discound {
     width: 50%;
     text-align: center;
     margin-left: -20px;
     margin-bottom: 40px;
 }
-.discound h1{
-    padding:50px
+
+.discound h1 {
+    padding-bottom: 20px;
 }
-.discound-section{
+
+.discound-section {
+    margin-top: 50px;
+
+}
+
+.deals {
+    margin-left: 400px;
     margin-top: 50px;
 }
 
-.discound-image{
+.discound-image {
     position: relative;
 }
-.discound-formula{
+
+.discound-formula {
     width: 40%;
-    
-    padding:30px;
-    background:linear-gradient(180deg, rgba(230, 230, 230, 0.829), rgba(255, 255, 255, 0.726));
+
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(230, 230, 230, 0.829), rgba(255, 255, 255, 0.726));
     position: absolute;
-    top:107px;
-    left:780px;
+    top: 107px;
+    left: 780px;
     border-radius: 10px;
 }
-.copy-3{
+
+.copy-3 {
     position: relative;
-    margin-top:40px
+    margin-top: 40px
 }
-.discound-formula-3{
+
+.discound-formula-3 {
     width: 40%;
-    padding:30px;
-    background:linear-gradient(180deg, rgba(230, 230, 230, 0.829), rgba(255, 255, 255, 0.726));
+    padding: 30px;
+    background: linear-gradient(180deg, rgba(230, 230, 230, 0.829), rgba(255, 255, 255, 0.726));
     position: absolute;
-    top:100px;
-    left:80px;
+    top: 100px;
+    left: 80px;
     border-radius: 10px;
 }
-.discound-image img{
+
+.discound-image img {
     width: 100%;
 }
-.discound-image-3 img{
+
+.discound-image-3 img {
     width: 100%;
 }
-.max-man{
+
+.max-man {
     display: flex;
-     gap:60px
+    gap: 60px
 }
-.copy-2{
-    margin-top:40px;
+
+.copy-2 {
+    margin-top: 40px;
 }
 
 
-.location, .max, .clock{
+.location,
+.max,
+.clock {
     display: flex;
-    gap:10px;
+    gap: 10px;
     align-items: center;
 }
+
 /* .location, .max, .clock, img{
     width: 100px;
 } */
-.tour{
+.tour {
     padding: 20px 0px;
 }
-.price{
-    padding:20px 0px
+
+.price {
+    padding: 20px 0px
 }
 
 .discound-formula h1 {
@@ -572,21 +659,34 @@ main {
         margin-left: 25px;
 
     }
-.discound-formula, .discound-formula-3{
-  display: none;
-}
-.discound-image img{
-    width: 90%;
-    margin-left: 20px;
-}
-.discound-image-3 img{
-    width: 90%;
-    margin-left: 20px;
-}
- .discound{
-    width: 90%;
-    margin:30px auto;
- }
+    /* service */
+    .award, .service , .hotel-service{
+        flex-basis: 90%;
+    }
+    .choose-textbox{
+        margin-left: 90px;
+        margin-bottom: 50px;
+    }
+
+    .discound-formula,
+    .discound-formula-3 {
+        display: none;
+    }
+
+    .discound-image img {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .discound-image-3 img {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .discound {
+        width: 90%;
+        margin: 30px auto;
+    }
 
     .login {
         width: 88%;
