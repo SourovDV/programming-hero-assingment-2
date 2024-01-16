@@ -370,7 +370,7 @@ main {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
 
-    background: rgba(41, 206, 246, 0.05);
+    background: rgba(44, 67, 199, 0.05);
 
 }
 
@@ -535,6 +535,10 @@ main {
 
 .footer-image-container {
     padding-bottom: 20px;
+}
+.footer-image-container span{
+    margin-left: 20px;
+    font-size: 40px;
 }
 
 .footer-content {
