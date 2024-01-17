@@ -708,11 +708,11 @@ main {
 
 
 
-@media screen and (max-width:600px) {
-
-    .navber {
+@media screen and (max-width: 600px) {
+    .navber{
         flex-direction: column;
-        margin-left: 20%;
+        justify-content: center;
+        align-items: center;
     }
 
     .navber-text {
@@ -769,17 +769,30 @@ main {
     }
 
     .perfect-place-text {
-        width: 70%;
-        padding: 15px;
+        width: 100%;
+        
+    }
+    .perfect-place-text >p{
+        margin-left: 28px;
+    }
+    .perfect-place-text ul li{
+        margin-left: 30px;
+    }
+    .perfect-place-text #buttons{
+        margin-left: 30px;
     }
 
     .perfect-place-text h1 {
-        width: 400px;
+        width: 350px;
+        margin-left: 20px;
     }
 
     .perfect-place-movie iframe {
-        width: 350px;
-        margin-left: 10px;
+        width: 360px;
+        margin-top:20px
+       
+    
+     
 
     }
 
